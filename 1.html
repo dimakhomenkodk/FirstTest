@@ -1,0 +1,21 @@
+<style>
+#block {
+background: red;
+}
+.block {
+background: blue;
+}
+*[id="block"] {
+background: green;
+}
+#block span {
+color: white;
+}
+.block span[attr="text"] {
+color: black;
+}
+</style>
+<div id="block" class="block">
+<span attr="text">Test</span>
+</div>
+
